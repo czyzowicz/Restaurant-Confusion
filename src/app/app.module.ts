@@ -15,6 +15,7 @@ import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
 import { MatSlideToggleModule } from '@angular/material';
 import { MatSelectModule } from '@angular/material';
+import { MatProgressSpinnerModule } from '@angular/material';
 
 import 'hammerjs'
 
@@ -60,7 +61,8 @@ import { LoginComponent } from './login/login.component';
     FormsModule,
     ReactiveFormsModule,
     MatSlideToggleModule,
-    MatSelectModule
+    MatSelectModule,
+    MatProgressSpinnerModule
   ],
   entryComponents: [
     LoginComponent
