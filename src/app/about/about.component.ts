@@ -16,7 +16,7 @@ export class AboutComponent implements OnInit {
   constructor(private leaderservice: LeaderService) { }
 
   ngOnInit() {
-    this.leaderservice.getLeaders().then(leaders => this.LEADERS = leaders);
+    this.leaderservice.getLeaders().subscribe(leaders => this.LEADERS = leaders);
   }
 
 }
